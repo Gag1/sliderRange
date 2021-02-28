@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input{
+    display: block;
+    padding: 20px;
+}
+
+.listOfColors{
+    border: 1px solid black;
+    width: 50%;
+    height: 50px;
+    margin: auto;
+    margin-top: 10px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+.row button{
+   padding: 8px;
+   background-color: rgb(253, 243, 243);
+   margin: 2px;
+   cursor: pointer;
+   outline: none;
+}
+
+.row button:hover{
+    background-color: white;
+    transition: 1s;
+}
+
+.text{
+    max-width: 200px;
+    border: 1px solid black;
+    display: inline-block;
+    position: absolute;
+    left: 250px;
+    top: 140px;
+}
+
+
+ .text p{
+     background-color: white;
+ }
